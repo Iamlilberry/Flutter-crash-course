@@ -8,6 +8,6 @@ void main(){
   // const -  value must be set at compile time & cannot be changed
   const age = 30;
   // final - setting a compile time value is optional & can be changed
-  final age;
-  age = 20;
+  // final age;
+  // age = 20;
 }

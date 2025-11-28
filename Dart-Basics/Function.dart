@@ -1,0 +1,26 @@
+void sayHello(){
+  print("Hello");
+}
+
+String greetUser(){
+  return "Welcome back";
+}
+
+void greet(String name){
+  print("Hello $name");
+}
+
+int add(int a, int b){
+  return a + b;
+}
+
+int multiply(int a, int b) => a * b;
+
+
+void main(){
+  sayHello();
+  greetUser();
+  greet("Berry");
+  add(4, 7);
+  multiply(6, 8);
+}

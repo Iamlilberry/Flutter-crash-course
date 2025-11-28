@@ -13,5 +13,25 @@ void main(){
   }
   names.sort(); // arranges list element alpahabetically
   names.clear(); // clears list
-  
+
+  // maps
+  var user = {
+    "name" : "Berry",
+    "age" : 20,
+    "verified" : true
+  };
+
+  // N/B when writing out maps operation the last map value example
+  // verified : true should have no comma (,)
+
+  print(user["name"]); // accessing values
+  user["age"]; // accessing keys
+  user["age"] = 21; // updating value
+  user.remove("verified"); // removes value
+  print(user.containsKey("age")); // checks element
+  print(user.containsValue(21)); // checks value
+  print(user.keys); // print all keys in map
+  print(user.values); // print all values in map
+  print(user.length); // shows length
+  user.clear(); // clears map
 }
