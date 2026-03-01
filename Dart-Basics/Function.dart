@@ -2,7 +2,7 @@
 //. They can take parameters and return values.
 
 
-void sayHello(){
+void sayHello(){ // void means it does not return any value
   print("Hello");
 }
 

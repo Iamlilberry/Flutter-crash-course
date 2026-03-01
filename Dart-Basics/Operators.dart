@@ -10,13 +10,16 @@ void main(){
   print(a ~/ b); // integer division
   print(a % b);  // remainder division
 
-// ASSIGNMENT OPERATORS = assign or update values
-int x = 20; // (=) assign i.e (+=) - add and assign 
+// ASSIGNMENT OPERATORS = assign or update values 
+ int x = 20; // (=) assign i.e (+=) - add and assign 
 
-x += 8;
-x -= 6;
-x ~/= 4;
-x *= 2;
+
+x += 8; // += add and assign
+x -= 6; // -= subtract and assign
+x ~/= 4; // `~/=` integer divide and assign
+x *= 2; // *= multiply and assign
+
+
 
 // COMPARION OPERATOR = used in if/else, loops, condition
 int age = 18;
@@ -29,9 +32,9 @@ print(age > 18); // greater than
 print(age != 18); // not equal too
 
 // TYPE TEST OPERATORS = check data types
-var x = 18;
-print(x is String); // check type
-print(x is! int); // is not
+// var z = 18;
+// print(z is String); // check type
+// print(x is! int); // is not
 
 // LOGICAL OPERATOR = used in conditions
 // && ==  AND
@@ -42,6 +45,6 @@ print(x is! int); // is not
 // ++ = add 1 
 // -- = subtract 1
 // +=2 = add 2
-// -= 2 = subtract 2 
+// -= 2 = subtract 2] 
 }
 
