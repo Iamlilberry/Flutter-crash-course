@@ -1,3 +1,7 @@
+// functions are reusable blocks of code that perform a specific task
+//. They can take parameters and return values.
+
+
 void sayHello(){
   print("Hello");
 }
@@ -23,4 +27,7 @@ void main(){
   greet("Berry");
   add(4, 7);
   multiply(6, 8);
+
+
+  
 }
